@@ -36,8 +36,8 @@ function initSdk(name) {
             channelId: '9b7d97b5-a6c8-4c86-9594-b09437535c84',                   // Channel ID, available in channel settings in ODA UI
             // userId: '<userID>',                      // User ID, optional field to personalize user experience
             enableAttachment: false,
-			enableAutocomplete: true,                   // Enables autocomplete suggestions on user input
-            enableBotAudioResponse: true,               // Enables audio utterance of skill responses
+	    enableAutocomplete: true,                   // Enables autocomplete suggestions on user input
+            enableBotAudioResponse: false,               // Enables audio utterance of skill responses
             enableClearMessage: true,                   // Enables display of button to clear conversation
             enableSpeech: false,                         // Enables voice recognition
             speechLocale: WebSDK.SPEECH_LOCALE.EN_US,   // Sets locale used to speak to the skill, the SDK supports EN_US, FR_FR, and ES_ES locales for speech
