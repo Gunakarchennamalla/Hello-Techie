@@ -51,7 +51,7 @@ function initSdk(name) {
             theme: WebSDK.THEME.REDWOOD_DARK,            // Redwood dark theme. The default is THEME.DEFAULT, while older theme is available as THEME.CLASSIC
 			displayActionsAsPills: true,
 			enableDraggableButton: false,
-			disablePastActions : none,
+			disablePastActions : 'none',
 			initUserHiddenMessage: 'hi',
 			botIcon: 'https://i.pinimg.com/736x/8b/d8/97/8bd897f7fce9469a670f494768f21dec.jpg',
 			logoIcon: 'https://i.pinimg.com/736x/8b/d8/97/8bd897f7fce9469a670f494768f21dec.jpg',
