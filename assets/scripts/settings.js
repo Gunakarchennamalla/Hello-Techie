@@ -50,7 +50,7 @@ function initSdk(name) {
             timestampMode: 'relative',                  // Sets the timestamp mode, relative to current time or default (absolute)
             theme: WebSDK.THEME.REDWOOD_DARK,            // Redwood dark theme. The default is THEME.DEFAULT, while older theme is available as THEME.CLASSIC
 			displayActionsAsPills: true,
-			enableDraggableButton: false,
+			enableDraggableButton: true,
 			disablePastActions : 'none',
 			initUserHiddenMessage: 'hi',
 			botIcon: 'https://i.pinimg.com/736x/8b/d8/97/8bd897f7fce9469a670f494768f21dec.jpg',
